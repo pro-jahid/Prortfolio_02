@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(./img/Hero-bg-img.png);
+    background-position: center;
+    width: 100%;
+    height: 1000px;
+    
+}
+.container{
+    width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    
+}
+.header content{
+    width: 100%;
+    height: 200px;
+}
+.header-top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    
+}
+.logo-2{
+    padding-top: 50px;
+    float: right;
+}
+.logo-2 p{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 35px;
+    float: right;
+    color: #42200B;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+.logo-2 img{
+    padding-right: 20px;
+}
+.Express{
+    font-size: 16px;
+}
+.navber{
+    padding-top: 50px;
+}
+.navber ul li{
+    list-style: none;
+    padding: 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.navber ul{
+    display: flex;
+    float: right;
+    
+}
+.navber ul li a{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #42200B;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: #42200B;
+}
+#check{
+    display: none;
+}
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+.heading{
+    width: 40%;
+}
+.heading p{
+    font-size: 20px;
+    color: #42200B;
+    border: 3px dashed #42200B;
+    padding: 8px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+}
+.heading h1{
+    font-size: 114px;
+    color: #42200B;
+    font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 2px #fff;
+}
+.heading h2{
+    font-size: 56px;
+    color: #42200B;
+    font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 2px #fff;
+}
+.food{
+    width: 60%;
+}
+.food img {
+    width: 100%;
+    height: 800px;
+}
+/* section two start  */
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    justify-content: space-between;
+}
+.food-section{
+    background-image: url(./img/Food-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.food-section-two{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.berger-one{
+    background-image: url(./img/Food-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.berger-two{
+    background-image: url(./img/Food-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   height: 200px;
+   padding-top: 30px;
+   padding-left: 30px;
+   border-radius: 10px;
+}
+.food-section p{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.food-section h3{
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+.food-section-two P{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.food-section-two h2{
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+.berger-two P{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.berger-two h3{
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+/* section three start  */
+.card-section {
+    text-align: center;
+    padding-top: 70px;
+}
+.card-section button{
+    padding: 10px;
+    font-size: 25px;
+    color: #42200B;
+    background-color: #ffc045;
+    font-family: 'Bebas Neue', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.card-section h2{
+    padding-top: 40px;
+    font-size: 50px;
+    color: #42200B;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+}
+.card-section p{
+    padding-top: 30px;
+    line-height: 1.8;
+    color: #42200B;
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.card-one{
+    width: 32%;
+}
+.card-one h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #42200B;
+    padding-bottom: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.card-one p{
+    color: #42200B;
+    line-height: 1.5;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-one button{
+    padding: 15px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+    background-color: red;
+    justify-content: center;
+    cursor: pointer;
+}
+/* section four start */
+.box{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.box::before {
+    content: "";
+    position: absolute;
+    box-shadow: 15px 25px 50px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 15px 25px 50px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: 15px 25px 50px 0px rgba(0,0,0,0.43);
+    width: 100%;
+    height: 100%;
+}
+.box-one{
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.box-one h4{
+    font-size: 30px;
+    color: #42200B;
+    letter-spacing: 4px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.box-one h2{
+    font-size: 60px;
+    color: #42200B;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+}
+.box-one p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #42200B;
+    font-family: 'Montserrat', sans-serif;
+}
+.box-five{
+    display: flex;
+    gap: 10px;
+    padding: 40px 0px;
+}
+.box-two{
+    width: 20px;
+    height: 20px;
+    background-color: #ffc045;
+    border-radius: 50%;
+}
+.box-three{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: #dcdcdc;
+}
+.box-four{
+    width: 20px;
+    height: 20px;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+}
+
+.food-img{
+    width: 55%;
+}
+/* section five start */
+.section-five{
+    background-image: url(./img/From.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.from{
+    padding-top: 100px;
+    text-align: center;
+}
+.from h4{
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #42200B;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.from h2{
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: #42200B;
+    font-family: 'Alfa Slab One', cursive;
+}
+.from-one{
+    text-align: center;
+    padding-top: 100px;
+}
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 20px;
+    
+}
+.forms-design{
+    width: 500px;
+    padding: 30px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn{
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+/* this is footer */
+.footer{
+    padding-top: 100px;
+}
+.footer-one{
+    background-image: url(./img/Footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 520px;
+    padding-top: 75px;
+    padding-left: 40px;
+}
+.footer-two{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 35%;
+}
+.logo img{
+    color: #fff;
+}
+.logo p{
+    padding-top: 40px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo h6{
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: 1px;
+    bottom: -185px;
+    left: 30px;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.footer-three{
+   width: 40%;
+   padding-top: 140px;
+}
+.icon-one{
+    display: flex;
+    gap: 25px;
+    padding-bottom: 20px
+}
+.icon-two{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-three i{
+    color: #fff;
+    font-size: 40px;
+}
+.footer-three p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.icon{
+    position: absolute;
+    bottom: -185px;
+    right: 30px;
+}
+.icon i{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+padding-lr{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+@media (max-width: 1300px){
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        width: 100%;
+    }
+    .card-one img{
+        width: 100%;
+    }
+    .box-one{
+        width: 100%;
+        text-align: center;
+    }
+    .food-img{
+        width: 100%;
+        justify-content: center;
+    }
+    .food-img img{
+        width: 100%;
+        display: block;
+    }
+    .box-one h2{
+        margin-bottom: 20px;
+    }
+    .box-five{
+        justify-content: center;
+    }
+    .icon{
+        bottom: -120px;
+    }
+    .logo h6{
+        bottom: -120px;
+    }
+}    
+@media (max-width: 768px){
+    .logo-2{
+        display: none;
+    }
+    .navber {
+    }
+    .navber ul {
+        position: fixed;
+        width: 100vw;
+        height: 70vh;
+        top: 102px;
+        left: -200%;
+        background-color: #fff;
+        transition: all .1s;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: space-around;
+        padding-left: 0;
+        text-align: left;
+        align-items: center;
+        padding-top: 20px;
+        z-index: 1;
+        padding-bottom: 20px;
+        box-shadow: -3px 62px 111px -14px rgba(0,0,0,0.66);
+        -webkit-box-shadow: -3px 62px 111px -14px rgba(0,0,0,0.66);
+        -moz-box-shadow: -3px 62px 111px -14px rgba(0,0,0,0.66);
+    }
+     #check:checked ~ ul {
+        left: 0;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .heading{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 50px;
+    }
+    .heading h1{
+        font-size: 70px;
+        margin-top: 20px;
+    }
+    .heading h2{
+        font-size: 40px;
+        
+    }
+    .main-section{
+        gap: 40px;
+    }
+    .food{
+        width: 100%;
+        height: 300px;
+    }
+    .food img{
+        width: 100%;
+        position: absolute;
+        top: 220px;
+    }
+    .food-section{
+        width: 100%;
+        height: 400px;
+    }
+    .food-section-two{
+        width: 100%;
+        height: 400px;
+        align-items: center;
+    }
+    .card-one{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .box{
+        padding-top: 0px;
+    }
+    .box-one{
+        width: 100%;
+        text-align: center;
+    }
+    .box-five{
+        justify-content: center;
+    }
+
+    .food-img{
+        width: 100%;
+        justify-content: center;
+    }
+    .food-img img{
+        width: 100%;
+        display: block;
+    }
+    .forms-design{
+        padding: 20px 10px;
+    }
+    .logo{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer{
+        padding-top: 0px;
+    }
+    .footer-three{
+        width: 100%;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    .icon{
+        bottom: -80px;
+    }
+    .logo h6{
+        bottom: -80px;
+    }
+
+}
+@media (max-width: 576px){
+
+}
